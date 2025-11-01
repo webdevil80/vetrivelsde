@@ -1,5 +1,0 @@
-
-
-client id: 86migyi2npv136
-
-primary client secret: WPL_AP1.m1eVMDWu80Lv5OxJ.iKslbg==
