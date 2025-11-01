@@ -1,17 +1,13 @@
-
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CertificationShowcase from './CertificationShowcase';
-// import LinkedInCallback from './LinkedInCallback';
-import './style.css'; // Tailwind styles
-
+import './style.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/vetrivelsde">
       <Routes>
         <Route path="/" element={<CertificationShowcase />} />
-        {/* <Route path="/linkedin/callback" element={<LinkedInCallback />} /> */}
       </Routes>
     </BrowserRouter>
   );
